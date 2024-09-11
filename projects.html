@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul class="navbar">
+          <li><a href="index.html">About Me</a></li>
+          <div class="nav-right">
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="work.html">Work Experience</a></li>
+            <li><a href="assignments.html">Assignments</a></li>
+            <li><a href="contact.html">Contact Info</a></li>
+          </div>
+        </ul>
+      </nav>
+  </header>
+
+  <section class="content">
+    <h1>My Projects</h1>
+
+    <div class="card">
+      <h2 class="card-title">E-commerce Website</h2>
+      <p class="card-date">June 2023</p>
+      <p class="card-body">
+        A mock e-commerce website with full functionality ranging from selecting different styles of a product, Q&A section, and Ratings/Reviews section.
+        To reduce latency from 4+ seconds to < 100ms, I identified inefficiencies using Postman to test API endpoints with JSON payloads, query plans, K6, and Loader.io.
+        I increased client RPS from 100 to 2500 with < 1% error rate using NGINX load balancer and EC2 Instances.
+        I also improved Google Lighthouse performance by 25% by modularizing functions and using HTML async attributes.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Worlddex</h2>
+      <p class="card-date">October 2023</p>
+      <p class="card-body">
+        A prize-winning hackathon project that my team and I presented at the CalHacks UC Berkeley Hackathon.
+        WorldDex is an iOS mobile app that lets users scan objects, speak their names, and try to “catch” them, adding the item to a collection stored both in the app and on the blockchain.
+        Users can interact with their collection through conversations powered by AI models, and each scan creates an NFT to verify ownership, with features like community sharing and real-time updates.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2 class="card-title">Open-AI powered Slackbot</h2>
+      <p class="card-date">May 2024 - August 2024</p>
+      <p class="card-body">
+        As part of an ongoing project, I optimized the company’s OpenAI-powered Slackbot by replacing Redis with JSON files, significantly improving memory usage and result consistency.
+        Additionally, I integrated new features using Ruby on Rails, leveraging the chat completions API and enhancing web scraping efficiency to streamline business workflows and improve bot performance.
+      </p>
+    </div>
+
+  </section>
+</body>
+</html>
